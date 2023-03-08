@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\KuliahController;
-use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\Profile1Controller;
+use App\Http\Controllers\Kuliah1Controller;
+use App\Http\Controllers\Dashboard1Controller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,7 +22,7 @@ Route::get('/', function () {
 
 // Auth::routes();
 
-Route::get('/home', [HomeController::class, 'index'])->name('dashboard');
-Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
-Route::get('/kuliah', [KuliahController::class, 'index'])->name('kuliah');
+Route::get('/home', [Home1Controller::class, 'index'])->name('dashboard');
+Route::get('/dashboard', [Dashboard1Controller::class, 'index'])->name('dashboard');
+Route::get('/profile', [Profile1Controller::class, 'index'])->name('profile');
+Route::get('/kuliah', [Kuliah1Controller::class, 'index'])->name('kuliah');

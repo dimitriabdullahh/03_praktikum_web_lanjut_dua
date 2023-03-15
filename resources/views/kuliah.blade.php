@@ -26,10 +26,9 @@
             <div class="inner">
                 <center>
                     <h4 style="font-weight: bold">College</h4><br><br>
-                    <img src="dist/img/wildan.png" alt="foto wildan" style="width:200px"> <br><br>    
-                    <h4 style="font-weight: bold">Wildan Hafidz Mauludin</h4>
-                    <p" >I am a Junior User Interface and User Experience
-based in Indonesia and currently studying at the State Polytechnic of Malang.
+                    <img src="dist/img/dimit.jpg" alt="foto dimitri" style="width:200px"> <br><br>    
+                    <h4 style="font-weight: bold">Dimitri Abdullah</h4>
+                    <p" >Halo, Nama saya Dimitri Abdullah. Saya siswa Politeknik Negeri Malang paling asik.
                     </p>
                 </center>
             </div>

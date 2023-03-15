@@ -1,6 +1,6 @@
 @push('js')
 <script>
-  alert('Welcome');
+  alert('Welcome BecS!');
 </script>
 @endpush
 

@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\Auth;
 
 use Illuminate\Http\Request;
 
@@ -23,6 +24,12 @@ class HomeController extends Controller
      */
     public function index()
     {
+        // Dashboard
+        $user = Auth::user();
+        return view('dashboard');
+    }
+    public function dashboard(){
+        $user = Auth::user();
         return view('dashboard');
     }
 }

@@ -18,13 +18,13 @@ use App\Http\Controllers\MatkulController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
-// Auth::routes();
+Auth::routes();
 
-Route::get('/home', [HomeController::class, 'index'])->name('dashboard');
-Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/dashboard', [HomeController::class, 'dashboard'])->name('dashboard');
 Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
 Route::get('/kuliah', [KuliahController::class, 'index'])->name('kuliah');
 Route::get('/matkul', [MatkulController::class,'index'])->name('matkul');

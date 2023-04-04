@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('matkuls', function (Blueprint $table) {
             $table->id();
-            $table->string('KODE MK', 10)->index();
-            $table->string('NAMA MATA KULIAH', 50)->index();
+            $table->string('KODE_MK', 10)->index();
+            $table->string('NAMA_MATA_KULIAH', 50)->index();
             $table->integer('SKS');
             $table->integer('JAM');
             $table->integer('SEMESTER')->index();

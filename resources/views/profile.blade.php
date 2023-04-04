@@ -26,7 +26,11 @@
             <div class="inner">
                 <center>
                     <h4 style="font-weight: bold">Profile</h4><br><br>
+<<<<<<< HEAD
                     <img src="dist/img/dimitri.png" alt="foto dimitri" style="width:200px"> <br><br>    
+=======
+                    <img src="dist/img/dimit.jpg" alt="foto dimitri" style="width:200px"> <br><br>    
+>>>>>>> b9fa298cf1cefc4dc9b5b15a70f1bd2eb935d0b6
                     
                     
                     <div class="container text-left">

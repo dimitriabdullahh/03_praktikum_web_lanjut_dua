@@ -26,15 +26,9 @@
             <div class="inner">
                 <center>
                     <h4 style="font-weight: bold">College</h4><br><br>
-<<<<<<< HEAD
                     <img src="dist/img/dimitri.png" alt="foto dimitri" style="width:200px"> <br><br>    
                     <h4 style="font-weight: bold">Dimitri Abdullah</h4>
-                    <p" >Hello, Nama saya Dimitri Abdullah saya Mahasiswa Politeknik Negeri Malang.
-=======
-                    <img src="dist/img/dimit.jpg" alt="foto dimitri" style="width:200px"> <br><br>    
-                    <h4 style="font-weight: bold">Dimitri Abdullah</h4>
-                    <p" >Halo, Nama saya Dimitri Abdullah. Saya siswa Politeknik Negeri Malang paling asik.
->>>>>>> b9fa298cf1cefc4dc9b5b15a70f1bd2eb935d0b6
+                    <p" >Halo, nama saya Dimitri Abdullah. Saya mahasiswa di Politeknik Negeri Malang. Saya setiap harinya hanya mengoding dan mengoding dan mengoding. Sekian terima kasih.
                     </p>
                 </center>
             </div>
